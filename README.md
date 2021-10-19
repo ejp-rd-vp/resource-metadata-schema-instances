@@ -1,0 +1,2 @@
+# resource-metadata-schema-instances
+As part of the European Joint Programme (EJP) for Rare Disease meta data standards (see https://github.com/ejp-rd-vp/resource-metadata-schema) have been developed for rare disease registries to describe their metadata that will improve the FAIR-ness of these resources.  This repository contains instances of the resources that adhere to the resource metadata schema that are integrated with EJP RD.
