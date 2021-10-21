@@ -1,0 +1,21 @@
+@prefix : <http://purl.org/ejp-rd/metadata-model/v1/example-rdf/> .
+@prefix dcat:  <http://www.w3.org/ns/dcat#> .
+@prefix dct:   <http://purl.org/dc/terms/> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+
+:hPSCregNamesDataService a dcat:DataService ;
+   dct:publisher :publisher ;        
+   dct:title "hPSCreg API" ;
+   dct:description "Gets the names of cell lines in hPSCreg" ;
+   dcat:endpointURL <https://hpscreg.eu/api/names> ;
+   dcat:servesDataset <https://hpscreg.eu/> ;
+   dct:conformsTo <https://www.ecma-international.org/publications-and-standards/standards/ecma-404/> .
+   
+:publisher a foaf:Agent ;
+  dct:title "Human Pluripotent Stem Cell Registry (hPSCreg)" ;
+  foaf:page <https://hpscreg.eu> ;
+  dct:spatial  :location .
+
+:location a dct:Location ;
+  dct:title  "Fraunhofer-Institut für Biomedizinische Technik (IBMT)";
+  dct:description "Anna-Louisa-Karsch Str. 2, 10178 Berlin, Germany" .
