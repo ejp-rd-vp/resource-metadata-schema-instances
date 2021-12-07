@@ -21,7 +21,7 @@
   dcat:mediaType "text/html" ;
   dct:publisher :publisher .
 
-:publisher a foaf:Agent ;
+:publisher a foaf:Organization ;
   dct:title "Human Pluripotent Stem Cell Registry (hPSCreg)" ;
   foaf:page <https://hpscreg.eu> ;
   dct:spatial  :location .
