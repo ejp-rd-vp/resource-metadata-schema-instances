@@ -12,7 +12,7 @@
    dcat:servesDataset <https://www.wikipathways.org> ;
    dct:conformsTo  <https://www.w3.org/TR/rdf11-concepts/> .
    
-:publisher a foaf:Agent ;
+:publisher a foaf:Organization ;
   dct:title "WikiPathways" ;
   foaf:page <https://www.wikipathways.org> ;
   dct:spatial  :location .

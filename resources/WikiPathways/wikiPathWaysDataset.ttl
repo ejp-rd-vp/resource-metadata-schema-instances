@@ -11,10 +11,9 @@
   dcat:theme  <http://semanticscience.org/resource/SIO_001107> ;
   dcat:keyword "pathway" ;
   dcat:distribution <https://www.wikipathways.org/index.php/Download_Pathways> ;
-  dcat:landingPage <https://www.wikipathways.org>
-  .
+  dcat:landingPage <https://www.wikipathways.org> .
 
-:publisher a foaf:Agent ;
+:publisher a foaf:Organization ;
   dct:title "WikiPathways" ;
   foaf:page <https://www.wikipathways.org> ;
   dct:spatial  :location .

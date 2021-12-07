@@ -12,7 +12,7 @@
   dct:license <https://creativecommons.org/licenses/by/4.0> ;
   dcat:landingPage <https://bio.tools> .
 
-:publisher a foaf:Agent ;
+:publisher a foaf:Organization ;
   dct:title "bio.tools" ;
   foaf:page <https://bio.tools> ;
   dct:spatial  :location .

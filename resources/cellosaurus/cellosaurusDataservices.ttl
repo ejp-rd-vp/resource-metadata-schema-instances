@@ -11,7 +11,7 @@
    dcat:endpointURL <https://web.expasy.org/cgi-bin/cellosaurus/search> ;
    dcat:servesDataset <https://web.expasy.org/cellosaurus/> .
    
-:publisher a foaf:Agent ;
+:publisher a foaf:Organization ;
   dct:title "Cellosaurus - a knowledge resource on cell lines" ;
   foaf:page <https://web.expasy.org/cellosaurus/> ;
   dct:spatial  :location .

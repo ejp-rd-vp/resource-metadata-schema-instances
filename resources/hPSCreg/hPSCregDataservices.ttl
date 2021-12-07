@@ -11,7 +11,7 @@
    dcat:servesDataset <https://hpscreg.eu/> ;
    dct:conformsTo <https://www.ecma-international.org/publications-and-standards/standards/ecma-404/> .
    
-:publisher a foaf:Agent ;
+:publisher a foaf:Organization ;
   dct:title "Human Pluripotent Stem Cell Registry (hPSCreg)" ;
   foaf:page <https://hpscreg.eu> ;
   dct:spatial  :location .
